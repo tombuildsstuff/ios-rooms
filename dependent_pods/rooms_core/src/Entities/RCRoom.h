@@ -14,4 +14,6 @@
 
 @property (nonatomic, readwrite) NSString* name;
 
+-(instancetype) initWithName:(NSString*) name andLocation:(NSString*) location;
+
 @end

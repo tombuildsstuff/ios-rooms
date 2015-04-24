@@ -10,4 +10,15 @@
 
 @implementation RCRoom
 
+-(instancetype) initWithName:(NSString*) name andLocation:(NSString*) location
+{
+    if (self = [super init])
+    {
+        self.name = name;
+        self.location = location;
+    }
+    
+    return self;
+}
+
 @end

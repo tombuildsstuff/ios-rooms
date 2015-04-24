@@ -12,6 +12,6 @@
 
 -(instancetype) initWithBaseUrl: (NSString*) baseUrl;
 
--(void) getRooms: (void (^)(NSArray* rooms)) whenLoaded;
+-(void) getRooms: (void (^)(NSArray* rooms)) whenLoaded withError: (void (^)(NSError* error)) errorHandler;
 
 @end
