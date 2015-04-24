@@ -1,5 +1,5 @@
 # iOS Rooms
-A starter application + api for learning Swift
+An application covering the basics of Swift + iOS 101
 
 ## Getting Started
 
@@ -7,7 +7,7 @@ A starter application + api for learning Swift
 - OS X Yosemite 10.10.3
 - Xcode 6.3+ (App Store)
 - node.js / npm
-- CocoaPods
+- CocoaPods (sudo gem install cocoapods)
 
 ### Node API
 ```
@@ -17,7 +17,43 @@ node rooms.js
 ```
 
 ### Swift / Objective-C / Xcode
-*CocoaPods*
 ```
-sudo gem install cocoapods
+cd ios
+pod install
+open Rooms.xcworkspace
 ```
+
+## Background
+
+### Swift
+- Basic Swift:
+  - Immutable vs Immutable Variables (? vs !)
+  - Iterators (for + for each)
+  - Map Reduce
+
+- Command Line Tools:
+  - REPL
+  - Playground
+  - XcodeBuild
+
+- Objective-C:
+  - Message Sending
+  - Nullability (& if let)
+  - ARC
+  - Return Types (no generics)
+
+- UIKit
+  - Basics:
+    - UIViewController
+    - UINavigationController
+    - UITableViewController
+
+  - Interface Builder
+    - NIB's
+    - Storyboards
+
+### Features to Implement in this Project
+- Bridging Header
+- Load Rooms from Service
+- Display Rooms in a UITableViewController
+- Display Room Details
