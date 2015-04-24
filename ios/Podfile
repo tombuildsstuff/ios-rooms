@@ -1,0 +1,6 @@
+platform :ios, '8.0'
+
+target 'Rooms' do
+  pod 'RoomsCore', :path => '../dependent_pods/rooms_core/'
+end
+
