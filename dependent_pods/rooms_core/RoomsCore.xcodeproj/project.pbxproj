@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		244CA5F71AEA534B00D16799 /* RCRoom.h in Headers */ = {isa = PBXBuildFile; fileRef = 244CA5F51AEA534B00D16799 /* RCRoom.h */; };
+		244CA5F81AEA534B00D16799 /* RCRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 244CA5F61AEA534B00D16799 /* RCRoom.m */; };
+		24BF1B431AEA524F00D14AA7 /* RCRoomsCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 24BF1B3C1AEA524F00D14AA7 /* RCRoomsCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24BF1B451AEA524F00D14AA7 /* RCRoomsService.h in Headers */ = {isa = PBXBuildFile; fileRef = 24BF1B3F1AEA524F00D14AA7 /* RCRoomsService.h */; };
+		24BF1B461AEA524F00D14AA7 /* RCRoomsService.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BF1B401AEA524F00D14AA7 /* RCRoomsService.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		24BF1B0E1AEA4BA700D14AA7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		244CA5F51AEA534B00D16799 /* RCRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCRoom.h; sourceTree = "<group>"; };
+		244CA5F61AEA534B00D16799 /* RCRoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCRoom.m; sourceTree = "<group>"; };
+		24BF1B101AEA4BA700D14AA7 /* libRoomsCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRoomsCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		24BF1B3C1AEA524F00D14AA7 /* RCRoomsCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCRoomsCore.h; path = src/RCRoomsCore.h; sourceTree = "<group>"; };
+		24BF1B3F1AEA524F00D14AA7 /* RCRoomsService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCRoomsService.h; sourceTree = "<group>"; };
+		24BF1B401AEA524F00D14AA7 /* RCRoomsService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCRoomsService.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24BF1B0D1AEA4BA700D14AA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24BF1B071AEA4BA700D14AA7 = {
+			isa = PBXGroup;
+			children = (
+				24BF1B381AEA524600D14AA7 /* RoomsCore */,
+				24BF1B3C1AEA524F00D14AA7 /* RCRoomsCore.h */,
+				24BF1B111AEA4BA700D14AA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24BF1B111AEA4BA700D14AA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24BF1B101AEA4BA700D14AA7 /* libRoomsCore.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24BF1B381AEA524600D14AA7 /* RoomsCore */ = {
+			isa = PBXGroup;
+			children = (
+				24BF1B391AEA524F00D14AA7 /* Entities */,
+				24BF1B3E1AEA524F00D14AA7 /* Services */,
+			);
+			name = RoomsCore;
+			sourceTree = "<group>";
+		};
+		24BF1B391AEA524F00D14AA7 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				244CA5F51AEA534B00D16799 /* RCRoom.h */,
+				244CA5F61AEA534B00D16799 /* RCRoom.m */,
+			);
+			name = Entities;
+			path = src/Entities;
+			sourceTree = "<group>";
+		};
+		24BF1B3E1AEA524F00D14AA7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				24BF1B3F1AEA524F00D14AA7 /* RCRoomsService.h */,
+				24BF1B401AEA524F00D14AA7 /* RCRoomsService.m */,
+			);
+			name = Services;
+			path = src/Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		24BF1B351AEA50E400D14AA7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244CA5F71AEA534B00D16799 /* RCRoom.h in Headers */,
+				24BF1B431AEA524F00D14AA7 /* RCRoomsCore.h in Headers */,
+				24BF1B451AEA524F00D14AA7 /* RCRoomsService.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		24BF1B0F1AEA4BA700D14AA7 /* RoomsCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24BF1B241AEA4BA700D14AA7 /* Build configuration list for PBXNativeTarget "RoomsCore" */;
+			buildPhases = (
+				24BF1B0C1AEA4BA700D14AA7 /* Sources */,
+				24BF1B0D1AEA4BA700D14AA7 /* Frameworks */,
+				24BF1B0E1AEA4BA700D14AA7 /* CopyFiles */,
+				24BF1B351AEA50E400D14AA7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoomsCore;
+			productName = RoomsCore;
+			productReference = 24BF1B101AEA4BA700D14AA7 /* libRoomsCore.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24BF1B081AEA4BA700D14AA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Tom Harvey";
+				TargetAttributes = {
+					24BF1B0F1AEA4BA700D14AA7 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = 24BF1B0B1AEA4BA700D14AA7 /* Build configuration list for PBXProject "RoomsCore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 24BF1B071AEA4BA700D14AA7;
+			productRefGroup = 24BF1B111AEA4BA700D14AA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24BF1B0F1AEA4BA700D14AA7 /* RoomsCore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24BF1B0C1AEA4BA700D14AA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24BF1B461AEA524F00D14AA7 /* RCRoomsService.m in Sources */,
+				244CA5F81AEA534B00D16799 /* RCRoom.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		24BF1B221AEA4BA700D14AA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		24BF1B231AEA4BA700D14AA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24BF1B251AEA4BA700D14AA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "RoomsCore/RoomsCore-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24BF1B261AEA4BA700D14AA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "RoomsCore/RoomsCore-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24BF1B0B1AEA4BA700D14AA7 /* Build configuration list for PBXProject "RoomsCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24BF1B221AEA4BA700D14AA7 /* Debug */,
+				24BF1B231AEA4BA700D14AA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24BF1B241AEA4BA700D14AA7 /* Build configuration list for PBXNativeTarget "RoomsCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24BF1B251AEA4BA700D14AA7 /* Debug */,
+				24BF1B261AEA4BA700D14AA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24BF1B081AEA4BA700D14AA7 /* Project object */;
+}
