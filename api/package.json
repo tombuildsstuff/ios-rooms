@@ -1,0 +1,28 @@
+{
+  "name": "rooms-api",
+  "version": "1.0.0",
+  "description": "Rooms API",
+  "main": "rooms.js",
+  "dependencies": {
+    "express": "^4.12.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tombuildsstuff/ios-rooms"
+  },
+  "keywords": [
+    "ios",
+    "swift",
+    "git"
+  ],
+  "author": "Tom Harvey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tombuildsstuff/ios-rooms/issues"
+  },
+  "homepage": "https://github.com/tombuildsstuff/ios-rooms"
+}
